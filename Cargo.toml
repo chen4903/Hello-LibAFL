@@ -1,0 +1,21 @@
+[package]
+name = "LibAFL-Quick-Start"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libafl = "0.15"
+libafl_bolts = "0.15"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+lto = true
+codegen-units = 1
+opt-level = 3
+debug = true
+
+[features]
+panic = []
