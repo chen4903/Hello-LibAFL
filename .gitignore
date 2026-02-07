@@ -1,3 +1,6 @@
 /target
 
 crashes/
+corpus/
+solutions/
+minimized/

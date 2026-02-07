@@ -19,3 +19,12 @@ debug = true
 
 [features]
 panic = []
+
+[[example]]
+name = "baby_fuzzer_custom_executor"
+path = "examples/baby/baby_fuzzer_custom_executor.rs"
+
+[[example]]
+name = "baby_fuzzer_minimizing"
+path = "examples/baby/baby_fuzzer_minimizing.rs"
+
