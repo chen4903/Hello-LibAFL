@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 alloy = "1.6.1"
+hex = "0.4.3"
 libafl = "0.15"
 libafl_bolts = "0.15"
 revm = "34.0.0"
