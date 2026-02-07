@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "LibAFL-Quick-Start"
+name = "Hello-LibAFL"
 version = "0.1.0"
 dependencies = [
  "libafl",
