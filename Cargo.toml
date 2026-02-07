@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+alloy = "1.6.1"
 libafl = "0.15"
 libafl_bolts = "0.15"
+revm = "34.0.0"
 
 [profile.dev]
 panic = "abort"
