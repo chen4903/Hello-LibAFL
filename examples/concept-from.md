@@ -390,7 +390,7 @@ Core design principles
   - Easy to understand and debug
 
 
-### 🎯 5. Key Points You Can Understand Now
+### 🎯 4. Key Points You Can Understand Now
 ✅ Why Observer must exist
 
 Because we need to observe coverage changes
